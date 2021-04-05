@@ -1,11 +1,15 @@
-body {
+.full-height, body {
   min-height: 100vh;
   /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  height: fill-available;
 }
 
 html {
-  height: -webkit-fill-available;
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  height: fill-available;
 }
 
 .main__body {
