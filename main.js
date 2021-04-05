@@ -36,5 +36,5 @@
 // Fix for iphone
 if (navigator.platform === 'iPhone') {
   const navigation = document.getElementById('navigation');
-  navigation.style.marginBottom = '10vh';
+  navigation.style.marginBottom = '11vh';
 }
