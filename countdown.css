@@ -34,9 +34,8 @@
 }
 
 .countdown .message {
-  font-size: 4rem;
-  display: none;
-  padding: 1rem;
+  font-size: 3.5rem;
+  padding: 0.5rem;
 }
 
 .countdown .emoji {
