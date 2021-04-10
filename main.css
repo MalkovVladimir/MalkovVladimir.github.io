@@ -198,7 +198,7 @@ body {
   background-color: #fff!important;
 }
 
-a:hover {
+a.menu-link:hover {
   color: #343a3e!important;
   font-weight: 700!important;
 }
