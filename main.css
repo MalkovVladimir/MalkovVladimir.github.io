@@ -198,6 +198,11 @@ body {
   background-color: #fff!important;
 }
 
+a:hover {
+  color: #343a3e!important;
+  font-weight: 700!important;
+}
+
 /* .slider {
 	overflow-y: hidden;
 	max-height: 500px;
