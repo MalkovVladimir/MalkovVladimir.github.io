@@ -17,67 +17,64 @@
   <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="container fluid">
-  <div class="cover">
-    <div class="cover_substrate">
-      <!-- Мы рады пригласить Вас на праздничную вечеринку,</br>
-        посвященную нашей свадьбе, которая состоится</br> -->
-      <!-- <span class="cover_date">30 мая 2021 года</span> -->
-      <div class="cover_content">
-        <div class="cover_title">
-          Мы рады пригласить Вас
-          на праздничную вечеринку,
-          посвященную нашей свадьбе
-        </div>
-        <div class="cover_date">
-          <div>30</div>
-          <div>05</div>
-          <div>21</div>
-        </div>
-      </div>
-      <span class="cover_arows"></span>
-    </div>
-  </div>
+<body class="container-fluid p-0 m-0">
   <div class="row d-flex justify-content-center text-center ">
     <div
-      class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-between align-items-center main__body py-3 vh-100">
-      <div class="py-sm-0 py-md-5 w-100">
-        <div class="countdown wrapper">
-          <h1 id="headline">до нашей свадьбы:</h1>
-          <div id="countdown">
-            <ul>
-              <li><span id="days"></span>дней</li>
-              <li><span id="hours"></span>часов</li>
-              <li><span id="minutes"></span>минут</li>
-              <li><span id="seconds"></span>секунд</li>
-            </ul>
+      class="col-sm-12 col-md-12 col-lg-6">
+      <div class="cover">
+        <div class="cover_substrate">
+          <div class="cover_content">
+            <div class="cover_title">
+              Мы рады пригласить Вас
+              на праздничную вечеринку,
+              посвященную нашей свадьбе
+            </div>
+            <div class="cover_date">
+              <div>30</div>
+              <div>05</div>
+              <div>21</div>
+            </div>
           </div>
-          <div class="message">
-            <div id="content" style="display: none;">
-              <span class="emoji">🥳</span>
-              <span class="emoji">🎉</span>
-              <span class="emoji">🎂</span>
+          <span class="cover_arows"></span>
+        </div>
+      </div>
+      <div id="main" class="main__body d-flex flex-column justify-content-between align-items-center w-100 vh-100">
+        <div class="py-sm-0 py-md-5 w-100">
+          <div class="countdown wrapper">
+            <h1 id="headline">до нашей свадьбы:</h1>
+            <div id="countdown">
+              <ul>
+                <li><span id="days"></span>дней</li>
+                <li><span id="hours"></span>часов</li>
+                <li><span id="minutes"></span>минут</li>
+                <li><span id="seconds"></span>секунд</li>
+              </ul>
+            </div>
+            <div class="message">
+              <div id="content" style="display: none;">
+                <span class="emoji">🥳</span>
+                <span class="emoji">🎉</span>
+                <span class="emoji">🎂</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="navigation" class="content w-100">
-        <div class="d-flex h-100 mx-auto w-75 flex-column justify-content-between">
-          <a href="./place.html" class="button mb-3 rounded">
-            <i class="bi bi-geo-alt margin-r"></i>
-            Место и время
-          </a>
-          <a href="./dress-code.html" class="button mb-3 rounded">
-            <i class="bi bi-emoji-sunglasses margin-r"></i>
-            Дресс-код
-          </a>
-          <!--<a href="http://" class="button mb-3 rounded">Место и время</a>-->
-          <a href="./presents.html" class="button rounded">
-            <i class="bi bi-gift margin-r"></i>
-            Подарки
-          </a>
+        <div id="navigation" class="content w-100">
+          <div class="d-flex h-100 mx-auto w-75 flex-column justify-content-between">
+            <a href="./place.html" class="button mb-3 rounded">
+              <i class="bi bi-geo-alt margin-r"></i>
+              Место и время
+            </a>
+            <a href="./dress-code.html" class="button mb-3 rounded">
+              <i class="bi bi-emoji-sunglasses margin-r"></i>
+              Дресс-код
+            </a>
+            <a href="./presents.html" class="button rounded">
+              <i class="bi bi-gift margin-r"></i>
+              Подарки
+            </a>
+          </div>
         </div>
-        <!-- </div> -->
       </div>
     </div>
   </div>

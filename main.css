@@ -1,3 +1,7 @@
+* {
+  font-family: 'Play', sans-serif !important;
+}
+
 .main__body {
   background-color: aliceblue !important;
   background-image: url(images/first.JPG);
@@ -129,33 +133,21 @@
 .cover {
   height: 100vh;
   width: 100%;
-  background-color: #343a3e;
   background-image: url('./images/second.JPG');
   background-size: cover;
+  background-position-x:center;
+  background-position-y: bottom;
   background-repeat: no-repeat;
-  background-position: center;
   color: white;
-  position: fixed;
-  z-index: 100;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  font-family: 'Play', sans-serif;
   font-size: 24px;
-  overflow: hidden;
-
-  transition-property: all;
-	transition-duration: .3s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.cover.closed {
-	max-height: 0;
 }
 
 .cover_substrate {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   background-color: rgb(52 58 62 / 53%);;
   padding: 15px;
@@ -195,6 +187,10 @@
   background-position: center;
   position: absolute;
   bottom: 15px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #fff!important;
 }
 
 /* .slider {
