@@ -2,6 +2,11 @@
   font-family: 'Play', sans-serif !important;
 }
 
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .main__body {
   background-color: aliceblue !important;
   background-image: url(images/first.JPG);
