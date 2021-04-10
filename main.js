@@ -43,11 +43,15 @@ if (navigator.platform === 'iPhone') {
 
 var lastScrollTop = 0;
 document.addEventListener('scroll', function (e) {
+  e.preventDefault();
   var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
   if (st > lastScrollTop) {
-    // location.hash = '#main';
+    window.location.hash = '#page';
+    let mainTarget = document.getElementById('page');
+    mainTarget.scrollIntoView()
     // document.getElementById('main').scrollIntoView(false);
   } else {
+    window.location.hash=""
     // upscroll code
     window.scrollTo(0, 0);
   }
