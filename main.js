@@ -46,14 +46,16 @@ document.addEventListener('scroll', function (e) {
   e.preventDefault();
   var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
   if (st > lastScrollTop) {
-    window.location.hash = '#page';
-    let mainTarget = document.getElementById('page');
-    mainTarget.scrollIntoView()
+    // window.location.hash = '#page';
+    // let mainTarget = document.getElementById('page');
+    // mainTarget.scrollIntoView()
     // document.getElementById('main').scrollIntoView(false);
+    document.getElementById('hello').style.display = 'none';
   } else {
-    window.location.hash=""
+    //window.location.hash=""
     // upscroll code
-    window.scrollTo(0, 0);
+    //window.scrollTo(0, 0);
+    document.getElementById('hello').style.display = 'block';
   }
   lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 });
