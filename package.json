@@ -10,7 +10,6 @@
   },
   "keywords": [],
   "author": "",
-  "type": "module",
   "devDependencies": {
     "css-loader": "^5.2.1",
     "file-loader": "^6.2.0",
